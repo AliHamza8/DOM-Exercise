@@ -41,20 +41,20 @@
 // })
 
 // Question 3 Replacing an item
-let container = document.querySelector('.container')
-let item = document.querySelector('.remove-item')
-let btn = document.querySelector('.btn-remove')
+// let container = document.querySelector('.container')
+// let item = document.querySelector('.remove-item')
+// let btn = document.querySelector('.btn-remove')
 
-btn.addEventListener('click', function() {
-    let newEl = document.createElement('p')
-    let newText = document.createTextNode('Now the danger is gone...')
-    newEl.appendChild(newText)
-    container.replaceChild(newEl, item)
-    newEl.classList.add('text-success')
+// btn.addEventListener('click', function() {
+//     let newEl = document.createElement('p')
+//     let newText = document.createTextNode('Now the danger is gone...')
+//     newEl.appendChild(newText)
+//     container.replaceChild(newEl, item)
+//     newEl.classList.add('text-success')
     
-    btn.textContent = 'Yipee!'
-    btn.classList.remove('btn-warning')
-    btn.classList.add('btn')
-    btn.classList.add('btn-success')
-})
+//     btn.textContent = 'Yipee!'
+//     btn.classList.remove('btn-warning')
+//     btn.classList.add('btn')
+//     btn.classList.add('btn-success')
+// })
 
